@@ -179,6 +179,37 @@
 
 /* ── Responsive ── */
 
+/* This page has no burger toggle and no script.js, so the mobile drawer rules
+   in styles.css would strand its two nav links off-screen. Keep them inline. */
+@media (max-width: 900px) {
+  .resume-page .nav-menu {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    background: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-bottom: none;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .resume-page .nav-menu li { border-bottom: none; }
+  .resume-page .nav-menu a { display: inline; padding: 0; font-size: .9rem; }
+  .resume-page .nav-cta { margin-top: 0; padding: .45rem 1rem; }
+}
+
+@media (max-width: 560px) {
+  .resume-page .nav { gap: .75rem; min-height: 64px; }
+  .resume-page .brand-name { display: none; }
+  .resume-page .nav-menu { gap: .65rem; }
+  .resume-page .nav-menu a,
+  .resume-page .print-btn { font-size: .82rem; }
+  .resume-page .print-btn { padding: .4rem .7rem; }
+}
+
 @media (max-width: 640px) {
   .resume-main { padding-top: 6.5rem; }
   .skills-list > div { grid-template-columns: 1fr; gap: .2rem; }
