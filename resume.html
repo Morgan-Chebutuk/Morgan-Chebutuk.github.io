@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume — Morgan Chebutuk</title>
+<meta name="description" content="Resume of Morgan Chebutuk — B.S. Computer Science, Oklahoma Christian University, expected May 2027. Java, C++, JavaScript.">
+<meta name="robots" content="noindex">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0e14'/%3E%3Ctext x='50' y='50' font-family='ui-monospace,monospace' font-size='52' font-weight='700' fill='%232dd4bf' text-anchor='middle' dominant-baseline='central'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="resume.css">
+</head>
+<body class="resume-page">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header scrolled">
+  <nav class="nav container" aria-label="Primary">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-name">Morgan Chebutuk</span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="index.html">&larr; Back to portfolio</a></li>
+      <li><button class="nav-cta print-btn" type="button" id="printBtn">Print / Save as PDF</button></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" class="resume-main">
+  <article class="resume container">
+
+    <header class="resume-header">
+      <h1>Morgan Kigen Kimaset Chebutuk</h1>
+      <ul class="resume-contact">
+        <li><a href="mailto:kimasetm@gmail.com">kimasetm@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/morgan-kimaset-chebutuk-65a146262" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/Morgan-Chebutuk" target="_blank" rel="noopener">github.com/Morgan-Chebutuk</a></li>
+        <li><a href="https://morgan-chebutuk.github.io">morgan-chebutuk.github.io</a></li>
+      </ul>
+    </header>
+
+    <section class="resume-section">
+      <h2>Professional Summary</h2>
+      <p>
+        Aspiring Software Engineer with a strong foundation in Java, C++, object-oriented design,
+        data structures, and full-stack web development. Built academic systems including a Java
+        point-of-sale application, a Java DFS maze solver, and a spec-driven full-stack web
+        application. Seeking junior software development opportunities across full-stack,
+        front-end, back-end, web, and application engineering.
+      </p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <dl class="skills-list">
+        <div>
+          <dt>Languages</dt>
+          <dd>Java, C++, JavaScript, HTML, CSS</dd>
+        </div>
+        <div>
+          <dt>Development Areas</dt>
+          <dd>Object-Oriented Programming (OOP), Data Structures, Algorithms, Full-Stack Development, Back-End Development, Desktop UI Development, Data Management</dd>
+        </div>
+        <div>
+          <dt>Libraries / Frameworks / APIs</dt>
+          <dd>Java Swing, Node.js, Express.js, Vue 3, Vite, REST APIs</dd>
+        </div>
+        <div>
+          <dt>Tools / Platforms</dt>
+          <dd>Git, GitHub, GitHub Actions, Eclipse, VS Code, XAMPP, AWS, Visual Studio</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="resume-section">
+      <h2>Academic Projects</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>POS — Point of Sale System</h3>
+          <span class="entry-meta">Java, Swing, CSV Data Management</span>
+        </div>
+        <ul>
+          <li>Developed a Java Swing point-of-sale application supporting cashier authentication, sales processing, multi-tender payments, and reporting workflows.</li>
+          <li>Architected a layered system across 4 packages and 30+ classes, separating domain models, data management, and user interface logic for maintainability.</li>
+          <li>Implemented <code>BigDecimal</code>-based transaction processing for tax calculation, split payments, accurate change handling, and date-based sales reports.</li>
+          <li>Built cashier, daily sales, and item-level reporting with date-based filtering to support reporting workflows and back-end data management.</li>
+        </ul>
+        <p class="entry-link"><a href="https://github.com/Morgan-Chebutuk/POS" target="_blank" rel="noopener">github.com/Morgan-Chebutuk/POS</a></p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Maze Solver — 3D Droid Navigation</h3>
+          <span class="entry-meta">Java</span>
+        </div>
+        <ul>
+          <li>Built a Java maze-solving application that controls a droid through a 3D maze using object-oriented classes for coordinates, droid behavior, stack storage, and UI execution.</li>
+          <li>Implemented depth-first search navigation with a custom generic stack, visited-coordinate tracking, portal handling, and backtracking to locate the maze exit.</li>
+          <li>Used maze scanning and movement APIs to evaluate adjacent cells, avoid blocked or out-of-bounds locations, and print traversal progress for debugging and validation.</li>
+        </ul>
+        <p class="entry-link"><a href="https://github.com/Morgan-Chebutuk/Maze" target="_blank" rel="noopener">github.com/Morgan-Chebutuk/Maze</a></p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Spec-Driven Todo Application</h3>
+          <span class="entry-meta">Vue 3, Node.js, Express, MySQL</span>
+        </div>
+        <ul>
+          <li>Built a multi-user full-stack web application specification-first, with written requirements, API contracts, and Gherkin acceptance criteria defined before implementation.</li>
+          <li>Implemented registration, login, and server-side session management using bcrypt password hashing and JWT bearer tokens.</li>
+          <li>Enforced per-user data isolation at the query layer so cross-user access returns 404 rather than exposing record existence.</li>
+          <li>Mapped every acceptance scenario to automated Jest and Vitest tests gating a GitHub Actions CI/CD pipeline.</li>
+        </ul>
+        <p class="entry-link"><a href="https://github.com/Morgan-Chebutuk/todospeckit-Morgan-Chebutuk" target="_blank" rel="noopener">github.com/Morgan-Chebutuk/todospeckit-Morgan-Chebutuk</a></p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Oklahoma Christian University</h3>
+          <span class="entry-meta">Expected May 2027</span>
+        </div>
+        <p class="entry-sub">Bachelor of Science in Computer Science &nbsp;|&nbsp; GPA: 3.2</p>
+        <p class="entry-body">
+          <strong>Relevant Coursework:</strong> Programming I and II, Software Engineering I, II,
+          and III, Internet Applications, Data Structures and Algorithms, Human-Computer
+          Interaction, Calculus I and II, Linear Algebra
+        </p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Leadership &amp; Additional Experience</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Treasurer, International Student Community</h3>
+          <span class="entry-meta">Aug 2024 — May 2025</span>
+        </div>
+        <p class="entry-sub">Oklahoma Christian University</p>
+        <ul>
+          <li>Processed daily financial transactions and maintained accurate records to support student organization operations.</li>
+          <li>Managed an annual budget of $2,000 for a community of about 50 international students, ensuring accurate reporting and clear stakeholder updates.</li>
+          <li>Coordinated with students and university administration to support communication and organization planning.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Student Operations Assistant</h3>
+          <span class="entry-meta">Aug 2023 — May 2024</span>
+        </div>
+        <p class="entry-sub">Oklahoma Christian University</p>
+        <ul>
+          <li>Completed maintenance, repair, cleaning, and facility support tasks across residence life spaces.</li>
+          <li>Helped maintain safe, functional, and welcoming residence hall and community environments.</li>
+          <li>Responded to day-to-day operational needs in a fast-paced campus setting to support smooth Residence Life operations.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Research Assistant</h3>
+          <span class="entry-meta">Feb 2021 — Aug 2021</span>
+        </div>
+        <p class="entry-sub">Division of National Malaria Program</p>
+        <ul>
+          <li>Collected, verified, and entered research data to support national malaria program initiatives.</li>
+          <li>Assisted with field research logistics and participant inquiries while maintaining data accuracy and integrity.</li>
+          <li>Supported data collection workflows requiring attention to detail, organization, and clear communication.</li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="resume-note">
+      Phone number and mailing address are omitted from this web copy. Available on request.
+    </p>
+
+  </article>
+</main>
+
+<script>
+  document.getElementById('printBtn').addEventListener('click', function () { window.print(); });
+</script>
+</body>
+</html>

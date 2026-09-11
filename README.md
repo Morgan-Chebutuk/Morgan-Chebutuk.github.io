@@ -9,11 +9,12 @@ No build step, no framework, no bundler. Deployed straight from `main` by GitHub
 
 ```
 .
-├── index.html                    # all page content
-├── styles.css                    # design tokens + layout (dark theme, responsive)
-├── script.js                     # nav, scroll header, reveal-on-scroll
-├── Morgan-Chebutuk-Resume.pdf    # linked from the hero, nav, and contact section
-└── .nojekyll                     # serve files as-is, skip Jekyll processing
+├── index.html    # main page content
+├── resume.html   # web resume (print stylesheet included)
+├── styles.css    # design tokens + layout (dark theme, responsive)
+├── resume.css    # resume page styles + print rules
+├── script.js     # nav, scroll header, reveal-on-scroll
+└── .nojekyll     # serve files as-is, skip Jekyll processing
 ```
 
 ## Local preview
@@ -33,7 +34,7 @@ Then visit http://localhost:8000
 - **Text and projects** — `index.html`. Each project is one `<article class="project">` block; copy one to add another.
 - **Colors, spacing, fonts** — the `:root` custom properties at the top of `styles.css`.
 - **Featured project** — add `featured` to a project's class list to give it the full-width treatment.
-- **Resume** — replace `Morgan-Chebutuk-Resume.pdf` in place; the filename is referenced in three spots, so keep the name.
+- **Resume** — `resume.html`. This web copy deliberately omits phone number and mailing address; keep it that way. Use the "Print / Save as PDF" button for a clean printed version.
 
 Pushing to `main` redeploys the site automatically.
 
